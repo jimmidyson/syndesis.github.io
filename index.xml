@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Syndesis</title>
+    <title>syndesis</title>
     <link>https://jimmidyson.github.io/syndesis.io/</link>
-    <description>Recent content on Syndesis</description>
+    <description>Recent content on syndesis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 11 May 2017 15:41:11 +0100</lastBuildDate>
