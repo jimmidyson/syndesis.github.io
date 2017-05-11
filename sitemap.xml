@@ -2,8 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jimmidyson.github.io/syndesis.io/blog/syndesis-release-1.0.0/</loc>
+    <lastmod>2017-05-11T23:05:23+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jimmidyson.github.io/syndesis.io/</loc>
     <lastmod>2017-05-11T15:41:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jimmidyson.github.io/syndesis.io/blog/</loc>
+    <lastmod>2017-05-11T23:05:23+01:00</lastmod>
   </url>
   
   <url>
