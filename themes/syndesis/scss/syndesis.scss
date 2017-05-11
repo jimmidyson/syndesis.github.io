@@ -30,15 +30,19 @@ body {
 }
 
 .nav-link {
-  font-weight: $font-weight-bold;
+  //font-weight: $font-weight-bold;
+  font-weight: 400;
   font-size: 1.1rem;
 
   &:hover {
-    border-bottom: 1px dashed #fff;
+    //border-bottom: 1px dashed #fff;
+    border: 0;
+    color: $pf-blue-100 !important;
   }
 
   &:active, &:focus {
-    border-bottom: 1px solid #fff;
+    //border-bottom: 1px solid #fff;
+    border: 0;
   }
 }
 
