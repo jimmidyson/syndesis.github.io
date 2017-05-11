@@ -1,8 +1,12 @@
-@import "./bootstrap/_variables";
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import './bootstrap/_variables';
+@import '../../../node_modules/bootstrap/scss/bootstrap';
 
-@import "icons";
-@import "github-corner";
+@import 'blog';
+@import 'colors';
+@import 'docs';
+@import 'external';
+@import 'faq';
+@import 'github-corner';
 
 body {
   padding-top: 100px;
@@ -70,12 +74,31 @@ body {
     text-shadow: 1px 2px 2px rgba(0,0,0,0.5);
   }
 
-  .btn-outline-learn-more {
-    @include button-outline-variant($white, $brand-primary);
+  .btn-get-started {
+    background-color: $pf-white;
+    border: solid 1px $pf-white;
+    border-radius: 12px;
+    color: $pf-blue-300;
+
+    &:hover {
+      background-color: $pf-blue-300;
+      border: solid 1px $pf-blue-300;
+      border-radius: 12px;
+      color: $pf-white;
+    }
   }
 
-  .btn-get-started {
-    @include button-variant($brand-primary, $white, $brand-primary);
+  .btn-outline-learn-more {
+    background: transparent;
+    border: solid 1px $pf-white;
+    border-radius: 12px;
+    color: $pf-white;
+
+    &:hover, &:focus {
+      background: $pf-white;
+      border: solid 1px $pf-white;
+      color: $pf-blue-500;
+    }
   }
 }
 
@@ -158,11 +181,3 @@ footer.page-footer {
   }
 }
 
-////////////////////////////////////////////////////////////////////////////////
-// BLOG
-////////////////////////////////////////////////////////////////////////////////
-
-.blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #999;
-}
