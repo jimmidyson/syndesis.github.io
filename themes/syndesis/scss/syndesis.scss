@@ -108,8 +108,11 @@ body {
 ////////////////////////////////////////////////////////////////////////////////
 
 .mailing-list {
+  border-color: #0088ce;
+  box-shadow: 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  -webkit-box-shadow: inset 0 1px 0 hsla(0,0%,100%,.15), 0 1px 1px rgba(0,0,0,.075);
 
   .lead {
     text-shadow: none;
@@ -117,6 +120,12 @@ body {
 
   .btn {
     font-weight: bold;
+  }
+
+  .btn-primary {
+    -webkit-box-shadow: 0 0 0;
+    -moz-box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
   }
 }
 
