@@ -1,8 +1,12 @@
-@import "./bootstrap/_variables";
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import './bootstrap/_variables';
+@import '../../../node_modules/bootstrap/scss/bootstrap';
 
-@import "icons";
-@import "github-corner";
+@import 'blog';
+@import 'colors';
+@import 'docs';
+@import 'external';
+@import 'faq';
+@import 'github-corner';
 
 body {
   padding-top: 100px;
@@ -26,15 +30,19 @@ body {
 }
 
 .nav-link {
-  font-weight: $font-weight-bold;
+  //font-weight: $font-weight-bold;
+  font-weight: 400;
   font-size: 1.1rem;
 
   &:hover {
-    border-bottom: 1px dashed #fff;
+    //border-bottom: 1px dashed #fff;
+    border: 0;
+    color: $pf-blue-100 !important;
   }
 
   &:active, &:focus {
-    border-bottom: 1px solid #fff;
+    //border-bottom: 1px solid #fff;
+    border: 0;
   }
 }
 
@@ -70,12 +78,31 @@ body {
     text-shadow: 1px 2px 2px rgba(0,0,0,0.5);
   }
 
-  .btn-outline-learn-more {
-    @include button-outline-variant($white, $brand-primary);
+  .btn-get-started {
+    background-color: $pf-white;
+    border: solid 1px $pf-white;
+    border-radius: 12px;
+    color: $pf-blue-300;
+
+    &:hover {
+      background-color: $pf-blue-300;
+      border: solid 1px $pf-blue-300;
+      border-radius: 12px;
+      color: $pf-white;
+    }
   }
 
-  .btn-get-started {
-    @include button-variant($brand-primary, $white, $brand-primary);
+  .btn-outline-learn-more {
+    background: transparent;
+    border: solid 1px $pf-white;
+    border-radius: 12px;
+    color: $pf-white;
+
+    &:hover, &:focus {
+      background: $pf-white;
+      border: solid 1px $pf-white;
+      color: $pf-blue-500;
+    }
   }
 }
 
@@ -85,8 +112,11 @@ body {
 ////////////////////////////////////////////////////////////////////////////////
 
 .mailing-list {
+  border-color: #0088ce;
+  box-shadow: 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  -webkit-box-shadow: inset 0 1px 0 hsla(0,0%,100%,.15), 0 1px 1px rgba(0,0,0,.075);
 
   .lead {
     text-shadow: none;
@@ -94,6 +124,12 @@ body {
 
   .btn {
     font-weight: bold;
+  }
+
+  .btn-primary {
+    -webkit-box-shadow: 0 0 0;
+    -moz-box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
   }
 }
 
@@ -158,11 +194,3 @@ footer.page-footer {
   }
 }
 
-////////////////////////////////////////////////////////////////////////////////
-// BLOG
-////////////////////////////////////////////////////////////////////////////////
-
-.blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #999;
-}
