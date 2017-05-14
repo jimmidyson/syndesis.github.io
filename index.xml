@@ -21,6 +21,37 @@
     </item>
     
     <item>
+      <title></title>
+      <link>https://jimmidyson.github.io/syndesis.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jimmidyson.github.io/syndesis.io/about/</guid>
+      <description>About Syndesis is a flexible, customizable platform that provides core integration capabilities as a service. It can be run on the cloud or on premises with OpenShift or Kubernetes, is fully extendible and, best of all, is open source.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jimmidyson.github.io/syndesis.io/roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jimmidyson.github.io/syndesis.io/roadmap/</guid>
+      <description>Roadmap Current Sprint: 12 Ends: May 12, 2017 (Fri)
+Preview Release Requirements &amp;amp; Stories
+JIRA Narrative
+JIRA Issues for Keynote</description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>https://jimmidyson.github.io/syndesis.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jimmidyson.github.io/syndesis.io/contact/</guid>
+      <description>A list of Syndesis points of contact and core contributors. This is likely not 100% up-to-date or correct, so feel free to correct as necessary. Also, please note that many of these hardworking folk have cross-collaborated (both UI and API, backend and API, etc).
+ Fuse Engineering Manager: Aileen Cunningham Product Manager: Keith Babo Architect &amp;amp; Technical Lead: Jimmi Dyson Back-End: Claus Ibsen Hiram Chirino, Ioannis Cannellos, Kurt Stam, Luca Burgazzoli, Roland Huß, Zoran Revgart Front-End: Stan Lewis, Rachel Yordán Data Mapper: Matt Pavlovich (Media Driver) QE: David Simansky, Josef Ludvicek Support: Tova Cohen, Nichola Moore UXD: Catherine Robson, SJ Cox, Dongni Wang  Thanks to everyone for your continued hard work!</description>
+    </item>
+    
+    <item>
       <title>FAQ</title>
       <link>https://jimmidyson.github.io/syndesis.io/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
