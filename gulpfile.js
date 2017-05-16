@@ -9,6 +9,7 @@ var jsLibs = [
   './node_modules/tether/dist/js/tether.min.js',
   './node_modules/bootstrap/dist/js/bootstrap.min.js',
   './node_modules/anchor-js/anchor.js',
+  './static/js/affix.js',
   './themes/syndesis/js/**/*.js'
 ];
 
