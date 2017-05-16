@@ -22,15 +22,6 @@
     
     <item>
       <title></title>
-      <link>https://jimmidyson.github.io/syndesis.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jimmidyson.github.io/syndesis.io/about/</guid>
-      <description>About Syndesis is a flexible, customizable platform that provides core integration capabilities as a service. It can be run on the cloud or on premises with OpenShift or Kubernetes, is fully extendible and, best of all, is open source.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://jimmidyson.github.io/syndesis.io/roadmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -39,6 +30,15 @@
 Preview Release Requirements &amp;amp; Stories
 JIRA Narrative
 JIRA Issues for Keynote</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://jimmidyson.github.io/syndesis.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jimmidyson.github.io/syndesis.io/about/</guid>
+      <description>Syndesis is a flexible, customizable platform that provides core integration capabilities as a service. It can be run on the cloud or on premises with OpenShift or Kubernetes, is fully extendible and, best of all, is open source.</description>
     </item>
     
     <item>
