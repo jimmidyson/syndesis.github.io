@@ -1,7 +1,8 @@
 {{ $currentNode := . }}
 {{ $menuName := .Params.sidebar }}
 {{ $menu := index .Site.Menus $menuName }}
-<aside>
+
+<aside id="sidemenu">
   <ul class="sidebar-menu">
     <li class="nav-button hidden-lg-up"><button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas" data-target="#sidebar">Hide nav</button></li>
     {{ range $menu }}

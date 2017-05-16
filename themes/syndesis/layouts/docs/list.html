@@ -1,7 +1,11 @@
+{{ define "pagejs" }}
+<script src="/js/affix.js"></script>
+{{ end }}
+
 {{ define "sidebar"}}{{ partial "sidenav" .}}{{ end}}
 
 {{ define "main"}}
-<div class="list">
+<div class="list" style="height: 1800px;">
   <h1>{{ .Title }}</h1>
   {{ .Content | safeHTML }}
   <div class="articles">
