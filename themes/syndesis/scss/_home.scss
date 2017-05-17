@@ -33,6 +33,16 @@ body.home {
     transition: background-color 800ms ease-in-out;
   }
 
+  // Example usage:
+  @include media-breakpoint-between(xs, sm) {
+    .collapsing, .collapse.show {
+      background-color: $pf-blue-400;
+      padding: 62px 25px 10px;
+      margin: -62px -25px 0;
+      z-index: -1;
+    }
+  }
+
 
   ////////////////////////////////////////////////////////////////////////////////
   // JUMBOTRON
