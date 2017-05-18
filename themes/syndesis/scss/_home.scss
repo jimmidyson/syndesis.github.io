@@ -33,8 +33,8 @@ body.home {
     transition: background-color 800ms ease-in-out;
   }
 
-  // Example usage:
-  @include media-breakpoint-between(xs, sm) {
+  // Display a background color for expanded navigation on smaller devices
+  @include media-breakpoint-between(xs, md) {
     .collapsing, .collapse.show {
       background-color: $pf-blue-400;
       padding: 62px 25px 10px;
