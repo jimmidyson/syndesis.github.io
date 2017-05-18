@@ -9,7 +9,8 @@ var jsLibs = [
   './node_modules/tether/dist/js/tether.min.js',
   './node_modules/bootstrap/dist/js/bootstrap.min.js',
   './node_modules/anchor-js/anchor.js',
-  './themes/syndesis/js/**/*.js'
+  './themes/syndesis/js/**/*.js',
+  './static/js/affix.js'
 ];
 
 function sriTransformer(tHash) {
@@ -92,7 +93,7 @@ gulp.task('optimize-css', function() {
   return gulp.src(['./public/**/*.css'])
     .pipe(plugins.uncss({
       html: ['./public/**/*.html'],
-      ignore: [/^\.sps.*/, /\.collapse\.show$/, '.collapsing', '.sidenav.active', '.anchorjs-icon']
+      ignore: [/^\.sps.*/, /\.collapse\.show$/, /affix/, '.collapsing', '.sidenav.active', '.anchorjs-icon']
     }))
     .pipe(gulp.dest('./public'));
 });
