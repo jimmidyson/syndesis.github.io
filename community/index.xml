@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communities on syndesis</title>
+    <link>https://jimmidyson.github.io/syndesis.io/community/</link>
+    <description>Recent content in Communities on syndesis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 19 May 2017 14:40:12 +0100</lastBuildDate>
+    
+	<atom:link href="https://jimmidyson.github.io/syndesis.io/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contributing to Syndesis</title>
+      <link>https://jimmidyson.github.io/syndesis.io/community/contributing/</link>
+      <pubDate>Fri, 19 May 2017 14:40:12 +0100</pubDate>
+      
+      <guid>https://jimmidyson.github.io/syndesis.io/community/contributing/</guid>
+      <description>There are many ways to contribute to Syndesis. All contributions are valued and welcomed, be it fixing a typo in documentation, raising an issue to report a bug, or creating a whole new awesome feature. Don&amp;rsquo;t worry if this is your first contribution to an open source project: the Syndesis maintainers can help you if you need it.
+Improving documentation Documentation is in various places in our repositories. We are committed to streamlining this, but for now there are a few different places to look.</description>
+    </item>
+    
+  </channel>
+</rss>
