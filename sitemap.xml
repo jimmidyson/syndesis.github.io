@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jimmidyson.github.io/syndesis.io/community/development_process/</loc>
+    <lastmod>2017-05-19T15:02:30+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jimmidyson.github.io/syndesis.io/community/contributing/</loc>
     <lastmod>2017-05-19T14:40:12+01:00</lastmod>
   </url>
@@ -18,7 +23,7 @@
   
   <url>
     <loc>https://jimmidyson.github.io/syndesis.io/</loc>
-    <lastmod>2017-05-19T14:40:12+01:00</lastmod>
+    <lastmod>2017-05-19T15:02:30+01:00</lastmod>
   </url>
   
   <url>
@@ -41,7 +46,7 @@
   
   <url>
     <loc>https://jimmidyson.github.io/syndesis.io/community/</loc>
-    <lastmod>2017-05-19T14:40:12+01:00</lastmod>
+    <lastmod>2017-05-19T15:02:30+01:00</lastmod>
     <priority>0</priority>
   </url>
   
