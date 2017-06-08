@@ -13,10 +13,10 @@
     
     <item>
       <title>Engineering Guidelines</title>
-      <link>https://jimmidyson.github.io/syndesis.io/community/development_process/</link>
+      <link>https://jimmidyson.github.io/syndesis.io/community/engineering_guidelines/</link>
       <pubDate>Fri, 19 May 2017 15:02:30 +0100</pubDate>
       
-      <guid>https://jimmidyson.github.io/syndesis.io/community/development_process/</guid>
+      <guid>https://jimmidyson.github.io/syndesis.io/community/engineering_guidelines/</guid>
       <description>Heads up! This is a work in progress... and may always be... Please check back regularly.  The Syndesis maintainers are always looking for the optimum way to develop Syndesis. We aim to have a development process that enables fast delivery across all features and components, taking into account priorities from the community. Speed of development has to be balanced against total community ownership, knowledge sharing, and stability of the software.</description>
     </item>
     
